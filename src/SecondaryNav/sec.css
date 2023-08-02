@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SecondaryNavbar.css */
+.secondary-navbar {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #232F3E;
+    height: 35px; /* Decrease the top and bottom padding */
+    color: #fff;
+  }
+  
+  .secondary-navbar__menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-left: 10px;
+  }
+
+
+  
+  .secondary-navbar__menu li a {
+    text-decoration: none;
+    color: #fff;
+    /* padding: 10px 2px; */
+    font-size: 14px; /* Decrease the font size */
+    border: 1cm;
+
+  }
+  
+ 
+  .secondary-navbar__menu li a:hover {
+    border-color: #fff; /* Change the background color on hover */
+    color: #ffffff; /* Change the text color on hover */
+    border-radius: 4px;
+  }
+  

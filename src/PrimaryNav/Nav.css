@@ -1,0 +1,111 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    background-color: #131A22;
+    color: #ffffff;
+  }
+  
+  .navbar__logo a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+ /* .navbar__logo img {
+    width: 150px; 
+    height: 100px; 
+    margin-right: 10px;
+  } */
+
+  .navbar__search {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 2px 2px;
+
+  }
+  
+  .navbar__search select {
+    background-color:rgba(128, 128, 128, 0.562);
+    border: 1cm;
+    padding: 6px;
+    font-size: 1rem;
+    }
+
+
+
+  .navbar__search input {
+    border: none;
+    outline: none;
+    width: 500px;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .navbar__search button {
+    border: none;
+    background-color: #febd69;
+    color: #232f3e;
+    padding: 8px 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .navbar__options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar__options a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar__cart {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #ffffff;
+    margin-right: 20px;
+   
+  }
+  
+  .navbar__cartCount {
+    margin-left: 5px;
+  }
+  
+  .navbar__orders {
+    margin-right: 20px;
+     /* Add some margin to separate "Orders" from other links */
+  }
+  
+  .navbar__orders a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+   
+  
+  }
+
+  .navbar__signIn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+
+  .Hem{
+    font-size: small;
+    font-weight:900 bold;
+    word-spacing: 100vw;
+  }
