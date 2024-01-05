@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './PrimaryNav/Navbar';
 import Home from './PrimaryNav/Home';
@@ -21,14 +22,20 @@ import Gift from './SecondaryNav/Gift';
 import News from './SecondaryNav/News';
 
 
+
 const App = () => {
   return (
-    <Router>
+  <div className='container'>
+
+<Router>
       <div>
         <Navbar />
         <SecondaryNavbar/>
+        
+      
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />
+        } />
          
           <Route path="/address" element={<Address />} />
           <Route path="/orders" element={<Orders />} />
@@ -52,6 +59,9 @@ const App = () => {
         
       </div>
     </Router>
+
+
+               </div>
   );
 };
 

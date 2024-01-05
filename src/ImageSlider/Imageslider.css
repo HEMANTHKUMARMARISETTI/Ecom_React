@@ -1,0 +1,75 @@
+/* ImageSlider.css */
+/* .slide {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+  } */
+
+  /* Imageslider.css */
+.slide {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.image-slider-container {
+  position: relative;
+  z-index: 1;
+}
+
+.image-row {
+  position: relative; /* Add this to create a new stacking context */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -400px;
+  z-index: 2;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.image-item {
+  background-color: white; /* Add white background */
+  padding: 20px 12px 20px; /* Add padding around the image */
+}
+
+.image-item img {
+  width: 310px;
+  height: 310px;
+}
+
+/* ... rest of your styles ... */
+.h11{
+  color: black;
+  font-size: 23px;
+  padding-left: 16px;
+  margin-bottom: 15px;
+
+}
+
+.per{
+  color: #007185;
+  font-size: 13px!important;
+    line-height: 19px!important;
+    padding-left: 15px;
+}
+
+.per:hover{
+  color:orangered ;
+}
+
+.bigman{
+  padding-top: 15px;
+  margin-top: 25px;
+  align-items: center;  
+  margin-left: 17px;
+  margin-right: 17px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  background-color: white;
+}

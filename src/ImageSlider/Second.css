@@ -1,0 +1,39 @@
+.image-row1 {
+    position: relative; /* Add this to create a new stacking context */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 1px;
+  }
+  
+  .image-item1 {
+    background-color: white; /* Add white background */
+    padding: 20px 12px 20px; /* Add padding around the image */
+  }
+  
+  .image-item1 img {
+    width: 310px;
+    height: 310px;
+  }
+  
+  /* ... rest of your styles ... */
+  .h11{
+    color: black;
+    font-size: 23px;
+    padding-left: 16px;
+    margin-bottom: 15px;
+  
+  }
+  
+  .per{
+    color: #007185;
+    font-size: 13px!important;
+      line-height: 19px!important;
+      padding-left: 15px;
+  }
+  
+  .per:hover{
+    color:orangered ;
+  }

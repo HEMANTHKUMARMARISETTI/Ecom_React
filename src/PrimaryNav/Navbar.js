@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-      <img src="./amazon.png" height="100px" width="100px"  alt="Amazon Logo" />
+      <Link to='/'><img src={require('./amazon.png') } alt='amazon-logo' className='amazon_logo'/></Link>
       </div>
       <div className="navbar__options">
         <Link to="/address">Address</Link>
@@ -17,7 +17,6 @@ const Navbar = () => {
           <option value="all">All</option>
           <option value="electronics">Electronics</option>
           <option value="clothing">Clothing</option>
-          {/* Add more category options as needed */}
         </select>
         <input type="text" placeholder="Search" />
         <button><FaSearch /></button>
